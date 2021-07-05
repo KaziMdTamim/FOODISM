@@ -1,0 +1,29 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+span{
+    color: crimson;
+}
+h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.display-flex{
+    display: flex;
+    margin-bottom: 100px;
+}
+.header img{
+width: 85%;
+}
+.header{
+    margin-left: 20px;
+    margin-top: 80px;
+}
+a{
+    text-decoration: none;
+    background: linear-gradient(crimson,tomato);
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px 45px;
+    color: yellow;
+}
