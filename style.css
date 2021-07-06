@@ -20,6 +20,7 @@ width: 85%;
     margin-top: 80px;
 }
 a{
+    margin-top: 20%;
     text-decoration: none;
     background: linear-gradient(crimson,tomato);
     border-radius: 20px;
@@ -27,23 +28,17 @@ a{
     padding: 15px 45px;
     color: yellow;
 }
+.number{
+    padding-top: 5%;
+}
 .About-me{
     display: flex;
-}
-.About-me{
+    justify-content: space-around;
+    align-items: center;
     background-image: url(images/shapes/7.png);
 }
-.img img{
+.About-me img{
     width: 20%;
-}
-.img h2{
-    text-align: right;
-}
-.img h3{
-    text-align: right;
-}
-.number a{
-    text-align: end;
 }
 .recepies{
     text-align: center;
@@ -55,33 +50,44 @@ a{
     display: flex;
 }
 .conteinar-1 div{
-padding: 20px;
-width: 25%;
+padding: 25px;
+width: 20%;
 margin-left: 5%;
 margin-right: 5%;
-padding-left: 20px;
+padding: 25px;
 border-radius: 15px;
-box-shadow: 10px 10px 40px gainsboro;
+box-shadow: 10px 10px 20px 20px gainsboro;
 }
 .conteinar-1 img{
-    width: 50%;
+    width: 99%;
+    height: 45%;
 
 }
 .conteinar-2{
-    display: inline-flex;
-    margin-left: 35%;
-    margin-right: 25%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    
 }
-.conteinar-2 div{
-    width: 205%;
-    padding: 20px;
+.conteinar-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 10%;
+   padding: 1%;
+   padding-top: 1%;
     border-radius: 15px;
-    box-shadow: 10px 10px 40px gainsboro;
+    box-shadow: 10px 10px 40px 40px gainsboro;
 }
 footer{
-    color: rgb(238, 180, 20);
+    color: rgb(255, 251, 0);
     text-align: center;
     padding: 40px;
     padding-bottom: none;
     background-color: lightslategrey;
+}
+.contact{
+    padding-top: 20%;
 }
